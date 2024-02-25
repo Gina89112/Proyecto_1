@@ -1,0 +1,65 @@
+
+.card-img-top {
+    max-height: 300px; /* Ajusta esta altura según tus necesidades */
+    object-fit: cover; /* Ajusta la imagen para que ocupe toda la caja sin distorsionarse */
+}
+.invisible {
+    display: none;
+}
+.buttona{
+    margin-left: 1%; margin-bottom: 1%;
+}
+.centrado{
+    margin-left: 10%;
+}
+.form-funciones-cine{
+    margin-left: 550px;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-agregar-sala {
+    background-color: #ffb6c1; /* Color rosa claro */
+    width: 800px; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    font-size: 18px; /* Tamaño de la fuente del botón */
+    border: none; /* Elimina el borde del botón si lo deseas */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+/*Estilos para agregar*/
+.btn-custom {
+    background-color: pink;
+    border-color: pink;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #ff69b4; /* Cambia el tono de rosa al pasar el ratón */
+    border-color: #ff69b4;
+    color: white;
+}
+
+.btn-custom-close,
+.btn-custom-understood {
+    background-color: pink;
+    border-color: pink;
+    color: white;
+}
+
+.btn-custom-close:hover,
+.btn-custom-understood:hover {
+    background-color: #ff69b4; /* Cambia el tono de rosa al pasar el ratón */
+    border-color: #ff69b4;
+    color: white;
+}
+
